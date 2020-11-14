@@ -333,49 +333,42 @@ body {
     border-radius: 2px;
     transition: 1s;
 }
-.stay-section .main-form .form-group .form-control:focus{
-    border: 2px solid #999999;
+.stay-section .btn-primary:hover{
+     background: #15a4fa;
+    ;
+    border: 1px solid #15a4fa;
+    color: #fff;
 }
+.stay-section .main-form .form-group .form-control:focus {
+    border: 2px solid #2e84e0;
+}
+
 /*stay end*/
 
 /*social icon start*/
-.social-icon{
+.social-icon {
     width: 100%;
     float: left;
 }
-.socials ul{
+
+.socials ul {
     float: right;
     display: block;
 }
+
 .socials ul li {
     display: inline-block;
     margin: 18px 0px;
 }
-.socials ul li a{
+
+.socials ul li a {
     background: #15a4fa;
     padding: 8px 11px;
+    color: #fff;
+}
+.socials ul li a:hover{
+    background: transparent;
+    border: 1px solid red;
+    color: darkblue;
 }
 /*social icon end*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
